@@ -41,7 +41,12 @@
                     ?>
         </div>
         <div class="item c">
-            <h3>>Tu bedzie insert i delete<</h3>
+        <form id="dodawanie" action="insert.php" method="post">
+            <input type="text" name="autor" placeholder="Autor" /><br />
+            <input type="text" name="tytul" placeholder="Tytuł" /><br />
+            <input type="text" name="id" placeholder="id" /><br />
+            <button id="sub">Dodaj do biblioteki</button>
+        </form>
         </div>
     </div>
     
