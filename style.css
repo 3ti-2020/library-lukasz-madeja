@@ -6,12 +6,12 @@
 .grid{
     height: 100vh;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 50% 40%;
     grid-template-areas: 
-    "a"
-    "b"
-    "c";
+    "a a"
+    "b b "
+    "c d";
 }
 
 .a{
@@ -33,9 +33,12 @@
 .c{
     grid-area: c;
     background: black;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    color: white;
+}
+
+.d{
+    grid-area: d;
+    background: black;
     color: white;
 }
 
@@ -45,3 +48,12 @@
     height: 400px;
     
 }
+
+.tabelka2{
+    background:lightgray;
+    width: 800px;
+    height: 300px;
+    color: black;
+    
+}
+
